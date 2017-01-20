@@ -20,6 +20,7 @@ apt-get install -y --no-install-recommends python-setuptools \
   vim \
   ssh-client \
   zsh \
+  ntpdate \
   tmux
 
 # install java
