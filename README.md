@@ -7,7 +7,7 @@ Simply build the image then use the following command to start a workstation ses
 mount current folder and ssh key into the workstation.
 
 ```
-docker run --rm -it -v `pwd`:/data -v ~/.ssh:/root/.ssh workstation
+docker run --rm -it -v `pwd`:/data workstation
 ```
 
 ## TODO
